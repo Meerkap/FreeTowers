@@ -1,0 +1,103 @@
+# ========================================== #
+#        _____                               #
+#       |_   _|___ _ _ _ ___ ___ ___         #
+#         | | | . | | | | -_|  _|_ -|        #
+#         |_| |___|_____|___|_| |___|        #
+#                                            #
+#              - By PablockDA -              #
+# ========================================== #                              
+
+#Sounds 1.8: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+#Sounds 1.9-1.12: http://www.theredengineer.com/1.9-playsound-list.html
+#Sounds (Default) 1.13-1.14: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+Sounds:
+  Enable: true
+  Success: BLOCK_NOTE_BLOCK_BELL
+  Fail: BLOCK_NOTE_BLOCK_FLUTE
+
+# +------------------------------------------------------+ #
+# Example for Materials with DataValue in 1.12 and down: 
+# WOOL;3 | POTION;7
+
+GUI: 
+  Tittle: "&4 -=-=-=-=[&8Towers&4]=-=-=-=- "
+  Worth: "&7>> Next: "
+  Fill: 
+    material: "BLACK_STAINED_GLASS_PANE"
+    name: "&6&lSample"
+    lore: 
+    - "&c====================="
+    - "&7Sample Lore 1"
+    - "&c====================="
+  Hide:
+    name: "&6?"
+    material: "LARGE_FERN"
+  Fail: 
+    name: "&4Fail!"
+    material: "BARRIER"
+  Succes: 
+    name: "&2Succes"
+    material: "GOLD_NUGGET"
+  Exit: 
+    name: "&cExit"
+    material: "ARROW"
+  Reset: 
+    name: "&cReset"
+    material: "ANVIL"
+  Money: 
+    name: "&5Add Money"
+    material: "CHEST"
+    lore: 
+    - "&8>> &7Shift R-L to lock money"
+    
+# +------------------------------------------------------+ #
+
+Levels:
+  Easy: 
+    material: "LIME_TERRACOTTA"
+    name: "&aEasy Level"
+    lore: 
+    - "&c====================="
+    - "&7Sample Lore 1"
+    - "&7Sample Lore 2"
+    - "&c====================="
+    multiplier: 1.45
+    increment: 5
+  Medium: 
+    material: "YELLOW_TERRACOTTA"
+    name: "&aMedium Level"
+    lore: 
+    - "&c====================="
+    - "&7Sample Lore 1"
+    - "&7Sample Lore 2"
+    - "&c====================="
+    multiplier: 1.95
+    increment: 50
+  Hard: 
+    material: "RED_TERRACOTTA"
+    name: "&aHard Level"
+    lore: 
+    - "&c====================="
+    - "&7Sample Lore 1"
+    - "&7Sample Lore 2"
+    - "&c====================="
+    multiplier: 2.95
+    increment: 100
+
+# +------------------------------------------------------+ #
+
+Lang:
+  No_Money: "&cNot enought money."
+  Msg_Help: "&cUse &6/tw"
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
